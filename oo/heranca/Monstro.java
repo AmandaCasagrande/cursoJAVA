@@ -1,5 +1,5 @@
 package oo.heranca;
 
-public class Monstro {
+public class Monstro extends Jogador {
 
 }
