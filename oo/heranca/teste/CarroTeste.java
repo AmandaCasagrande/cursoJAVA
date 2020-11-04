@@ -20,6 +20,9 @@ public class CarroTeste {
 		
 		//Instância de Ferrari:
 		Ferrari c2 = new Ferrari(400);
+		c2.ligarTurbo();
+		c2.ligarAr();
+		c2.desligarAr();
 		
 		c2.acelerar();
 		System.out.println(c2);
