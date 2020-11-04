@@ -4,14 +4,13 @@ public class Jogo {
 
 	public static void main(String[] args) {
 		
+		//Construção padrão:
 		Monstro monstro = new Monstro();
 		monstro.x = 10;
 		monstro.y = 10;
-		
-		Heroi heroi = new Heroi();
-		heroi.x = 10;
-		heroi.y = 11;
-		
+
+		Heroi heroi = new Heroi(10, 11);
+
 		/*
 		j1.andar(Direcao.NORTE);
 		j1.andar(Direcao.LESTE);
@@ -24,8 +23,11 @@ public class Jogo {
 		
 		monstro.atacar(heroi);
 		heroi.atacar(monstro);
+		
 		monstro.atacar(heroi);
 		heroi.atacar(monstro);
+		
+		monstro.andar(Direcao.NORTE);
 		monstro.atacar(heroi);
 		heroi.atacar(monstro);
 		
